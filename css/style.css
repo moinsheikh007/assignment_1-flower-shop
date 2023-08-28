@@ -127,3 +127,29 @@ header {
 
 /* ===== Hot Deal ====== */
 
+.hotContainer {
+    background-color: #d8cdcd;
+    margin: 5rem 0;
+}
+.hot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.hotText {
+    padding: 0 1rem;
+    text-align: center;
+}
+.hotText h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.hotText p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.hotImg img {
+    width: 100%;
+}
