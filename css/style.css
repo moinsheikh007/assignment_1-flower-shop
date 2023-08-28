@@ -153,3 +153,33 @@ header {
 .hotImg img {
     width: 100%;
 }
+
+/* ===== Instagram ===== */
+.instaImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.instaImg img {
+    max-width: 100%;
+    width: 265px;
+}
+
+/* ===== Input Section ==== */
+
+.inputContainer {
+    background: url('../images/Rectangle\ 9.png');
+}
+
+.inputField {
+    text-align: center;  
+}
+.inputField input {
+    background-color: #fff;
+    padding: 8px 2rem;
+    width: 40%;
+    font-size: 1.2rem;
+    color: #000;
+    margin-right: 1rem;
+}
